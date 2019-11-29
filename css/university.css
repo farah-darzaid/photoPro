@@ -1,0 +1,390 @@
+body {
+	margin: 0px;
+}
+.row {
+	width: 100%;
+}
+.container .row {
+	padding: 10px 0px;
+
+}
+.breadcrumb {
+	background: white;
+}
+.breadcrumb a{
+	color: #11cbd7; 
+}
+.main {
+	width: 100%;
+	height: 900px;
+	background-image: url(../img/man.jpg);
+   
+}
+.main form {
+	    width: 100%;
+    vertical-align: middle;
+    height: 90px;
+}
+.col-7 ul {
+	margin-left: 20%;
+}
+.col-7 ul a {
+	color: black
+}
+.main .content {
+padding-top: 10%;
+}
+
+.main .content h1,h5 {
+	margin: 20px 0px ;
+	color: white;
+}
+.main .content .search {
+    margin: auto;
+    width: 50%;
+    background: white;
+    height: 80px;
+}
+.main button {
+	background-color: #11cbd7;
+	color: white;
+	border: none;
+	border-radius: 5px;
+    padding: 15px 40px;
+}
+.main .search button {
+	margin-left: 20%;
+}
+.main .search input {
+	    height: 70px;
+    border: none;
+    float: left;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.section1 {
+	margin-top: 5%;
+    width: 100%;
+    height: 400px;
+}
+.section1 button {
+	background-color: #11cbd7;
+	color: white;
+	border: none;
+	border-radius: 5px;
+    padding: 15px 40px;
+
+}
+.section1 .container .row .col-6 {
+	height: 400px;
+}
+.section1 .container .row .col-6 img{
+	width: 100%;
+    height: 360px;
+    margin: 20px 0px;
+position: relative;
+}
+.section1 .container .row .col-6 p {
+	line-height: 2;
+	margin: 14% 10% 0% 0% ;
+    
+ }
+.section1 .container .row .col-6 h2 {
+ 	    margin-top: 20px;
+ 	    color: red;
+ }
+.section1 .container .row .col-6 a i {
+ 	z-index: 2;
+    color: #11cad6;
+}
+.section1 .container .row .col-6 a {
+    	width: 100px;
+    	height: 100px;
+    	z-index: 1;
+    	background: red;
+
+}
+.section2 {
+	width: 100%;
+	height: 300px;
+}
+.section2 .col-3 {
+   
+}
+ .fa-book {
+font-size: 50px;
+    margin-bottom: 25px;
+}
+.section2 .col-3 a {
+	color: #11cad6;
+text-decoration: none;
+}
+.section3 {
+	padding-top: 5%;
+	width: 100%;
+	height: auto;
+	background-color:#f5f5f0;
+}
+.section3 button {
+	background-color: #11cbd7;
+	color: white;
+	border: none;
+	border-radius: 5px;
+    padding: 15px 40px;
+}
+.section3 .col-6 .row .col-6 .fa-book,.icn  {
+	display: inline-block;
+    margin-right: 15px;
+
+}
+.section3 .col-6 .row .col-6 .icn{
+margin-top: 15px;
+}
+.section3 .popular {
+	    margin-top: 20%;
+}
+.section3 .popular input[type='submit'] {
+
+}
+.section4 {
+    padding-top: 10%;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    padding-bottom: 10%;
+    background-color: #f5f5f0;
+}
+.section4 .row {
+	margin: 0px;
+}
+.section4 .arrows {
+	margin-top: 5%;
+
+}
+.section4 .arrows i {
+	font-size: 25px;
+    margin-right: 15px;
+    color: gray;
+}
+.section5 {
+	width: 100%;
+	height: auto;
+    margin-bottom: 10%;
+
+}
+.section5 .header{
+	padding-top: 10%;
+}
+ .header h1 {
+	color:  #11cbd7;
+}
+.header p{
+ 	color:gray;
+ 	font-size: 16px;
+}
+.section5 .row{
+    margin: 5% 0%;
+    padding: 0% 5%;
+    /* margin: 0% 3%; */
+    height: 400px;
+
+}
+.section5 .row .col-3 {
+    margin: 0% 1%;
+    height: 400px;
+    padding: 0% 15%;
+    background-color: lightgreen;
+    z-index: 1;
+}
+.section5 .row .col-3 .cardname {
+	z-index: 2;
+    height: auto;
+    left: 5%;
+    position: absolute;
+    bottom: 3%
+}
+.section6 {
+	width: 100%;
+	height: 900px;
+	background-color: #f8f9fa;
+}
+.section6 .header{
+	padding-top: 5%;
+}
+.section6 .row {
+	margin-top: 5%;
+    width: 100%;
+    text-align: center;
+}
+.section6 .row .col-6 {
+	height: auto;
+	
+}
+.section6 .row .col-6 .v1 {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 6%;
+}
+.card a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+.card a:hover {
+	color: #11cbd7;
+}
+.card p {
+    margin: 30px;
+    color: lightgray;
+    margin-left: 0px;
+    text-align: left;
+}
+.section6 .v1 a img {
+	   width: 30%;
+    height: 100%;
+    float: left;
+}
+.section6 .v1 a p {
+   color: black;
+    margin-right: 5px;
+    float: right;
+    display: inline-block;
+    text-align: left;
+    width: 67%;
+    margin-bottom: 28px;
+}
+.section6 .v1 a p:hover {
+	color: #11cbd7;
+}
+.section6 .v1 a .icons {
+	color: lightgray;
+}
+.section6 .v1 a .icons:hover {
+	color: gray;
+
+}
+.section6 .v1 a .icons i {
+	margin-left: 10px;
+}
+.create {
+	width: 100%;
+	height :200px;
+	background-color: #11cbd7;
+}
+.create .header{
+   padding-top: 3%;
+}
+.create .header h1 {
+	color: white;
+}
+.create .header p {
+	color: lightgray;
+}
+.create .form {
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+.create .form input {
+    size: 26%;
+    height: 70px;
+    border: none;
+    float: left;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.create .form button {
+	float: right;
+	    background-color: #11cbd7;
+    color: white;
+    height: 55px;
+    margin: 5px;
+    border: none;
+    width: 25%;
+    border-radius: 5px;
+    
+}
+.contact {
+	width: 100%;
+	height: 500px;
+}
+.contact .col-3 {
+	
+    margin: 5% 0%;
+    background-color: white;
+    height: auto;
+}
+.contact .col-3 h3 {
+	margin-bottom: 10%;
+}
+.contact .l1 {
+	display: inline-block;
+	width: 40%;
+    margin-right: 9%;
+}
+.contact .l1 a {
+	display: block;
+	margin-bottom: 5%;
+	color: #11cbd7;
+}
+.contact .l1 a:hover {
+	color: gray;
+	text-decoration: none;
+}
+.contact  a {
+	text-decoration: none;
+}
+.contact a p {
+    margin-bottom: 0px;
+    margin-top: 15%;
+    color: black;
+}
+.contact .blog a p:hover {
+	color:  #11cbd7;
+}
+.contact .blog .icons {
+    color: lightgray;
+    margin-top: -20px;
+}
+.contact .blog .icons:hover {
+	color: gray;
+}
+.contact .info p {
+	display: inline-block;
+	width: 80%;
+
+}
+.contact .info i {
+    margin-right: 10%;
+    vertical-align: top;
+    font-size: 20px;
+    margin-bottom: 15%;
+    display: inline-block;
+    color: lightgray;
+}
+footer {
+	width: 100%;
+	height: auto;
+}
+footer p {
+	line-height: 88px;
+	color: gray
+}
+footer i {
+	margin-right: 5%;
+}
+footer .col-3 p {
+	text-align: right;
+}
+footer .col-3 p i {
+	color: #11cbd7;
+
+}
+footer .col-3 p i:hover {
+	color: darkblue;
+}
+footer .col-9 a {
+	color:  #11cbd7;
+} 
